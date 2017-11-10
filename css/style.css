@@ -1,0 +1,8 @@
+#description > #desc-title{
+    font-size: 20px;
+}
+
+#description > p{
+    font-size: 14px;
+    text-align: justify;
+}

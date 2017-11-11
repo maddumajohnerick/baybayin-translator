@@ -1,0 +1,874 @@
+.char {
+    background-image: url("/images/spritesheet.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    -ms-transform: scale(.5);
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+    margin: -22px;
+/*    margin: -22px -28px -22px -22px;*/
+}
+
+.char-space {
+    width: 99px;
+    height: 75px;
+    background: transparent;
+}
+
+.char-a {
+    width: 99px;
+    height: 75px;
+    background-position: -5px -5px;
+}
+
+.char-b {
+    width: 82px;
+    height: 75px;
+    background-position: -114px -5px;
+}
+
+.char-ba {
+    width: 90px;
+    height: 75px;
+    background-position: -206px -5px;
+}
+
+.char-be {
+    width: 79px;
+    height: 75px;
+    background-position: -306px -5px;
+}
+
+.char-bi {
+    width: 86px;
+    height: 75px;
+    background-position: -395px -5px;
+}
+
+.char-bo {
+    width: 84px;
+    height: 75px;
+    background-position: -491px -5px;
+}
+
+.char-bu {
+    width: 90px;
+    height: 75px;
+    background-position: -585px -5px;
+}
+
+.char-c {
+    width: 85px;
+    height: 75px;
+    background-position: -685px -5px;
+}
+
+.char-ca {
+    width: 88px;
+    height: 75px;
+    background-position: -780px -5px;
+}
+
+.char-ce {
+    width: 81px;
+    height: 75px;
+    background-position: -878px -5px;
+}
+
+.char-ch {
+    width: 90px;
+    height: 75px;
+    background-position: -969px -5px;
+}
+
+.char-cha {
+    width: 92px;
+    height: 75px;
+    background-position: -5px -90px;
+}
+
+.char-che {
+    width: 92px;
+    height: 75px;
+    background-position: -107px -90px;
+}
+
+.char-chi {
+    width: 90px;
+    height: 75px;
+    background-position: -209px -90px;
+}
+
+.char-cho {
+    width: 86px;
+    height: 75px;
+    background-position: -309px -90px;
+}
+
+.char-chu {
+    width: 86px;
+    height: 75px;
+    background-position: -405px -90px;
+}
+
+.char-ci {
+    width: 82px;
+    height: 75px;
+    background-position: -501px -90px;
+}
+
+.char-co {
+    width: 83px;
+    height: 75px;
+    background-position: -593px -90px;
+}
+
+.char-cu {
+    width: 90px;
+    height: 75px;
+    background-position: -686px -90px;
+}
+
+.char-d {
+    width: 85px;
+    height: 75px;
+    background-position: -786px -90px;
+}
+
+.char-da {
+    width: 79px;
+    height: 75px;
+    background-position: -881px -90px;
+}
+
+.char-de {
+    width: 80px;
+    height: 75px;
+    background-position: -970px -90px;
+}
+
+.char-di {
+    width: 84px;
+    height: 73px;
+    background-position: -5px -175px;
+}
+
+.char-do {
+    width: 82px;
+    height: 75px;
+    background-position: -99px -175px;
+}
+
+.char-du {
+    width: 84px;
+    height: 75px;
+    background-position: -191px -175px;
+}
+
+.char-e {
+    width: 101px;
+    height: 75px;
+    background-position: -285px -175px;
+}
+
+.char-f {
+    width: 90px;
+    height: 70px;
+    background-position: -396px -175px;
+}
+
+.char-fa {
+    width: 90px;
+    height: 75px;
+    background-position: -496px -175px;
+}
+
+.char-fe {
+    width: 90px;
+    height: 75px;
+    background-position: -596px -175px;
+}
+
+.char-fi {
+    width: 90px;
+    height: 75px;
+    background-position: -696px -175px;
+}
+
+.char-fo {
+    width: 90px;
+    height: 73px;
+    background-position: -796px -175px;
+}
+
+.char-fu {
+    width: 90px;
+    height: 75px;
+    background-position: -896px -175px;
+}
+
+.char-g {
+    width: 80px;
+    height: 72px;
+    background-position: -5px -260px;
+}
+
+.char-ga {
+    width: 85px;
+    height: 75px;
+    background-position: -95px -260px;
+}
+
+.char-ge {
+    width: 90px;
+    height: 75px;
+    background-position: -190px -260px;
+}
+
+.char-gi {
+    width: 90px;
+    height: 75px;
+    background-position: -290px -260px;
+}
+
+.char-go {
+    width: 84px;
+    height: 75px;
+    background-position: -390px -260px;
+}
+
+.char-gu {
+    width: 84px;
+    height: 75px;
+    background-position: -484px -260px;
+}
+
+.char-h {
+    width: 94px;
+    height: 75px;
+    background-position: -578px -260px;
+}
+
+.char-ha {
+    width: 86px;
+    height: 75px;
+    background-position: -682px -260px;
+}
+
+.char-he {
+    width: 81px;
+    height: 74px;
+    background-position: -778px -260px;
+}
+
+.char-hi {
+    width: 90px;
+    height: 75px;
+    background-position: -869px -260px;
+}
+
+.char-ho {
+    width: 90px;
+    height: 75px;
+    background-position: -969px -260px;
+}
+
+.char-hu {
+    width: 90px;
+    height: 75px;
+    background-position: -5px -345px;
+}
+
+.char-i {
+    width: 99px;
+    height: 75px;
+    background-position: -105px -345px;
+}
+
+.char-j {
+    width: 90px;
+    height: 75px;
+    background-position: -214px -345px;
+}
+
+.char-ja {
+    width: 93px;
+    height: 75px;
+    background-position: -314px -345px;
+}
+
+.char-je {
+    width: 90px;
+    height: 75px;
+    background-position: -417px -345px;
+}
+
+.char-ji {
+    width: 84px;
+    height: 75px;
+    background-position: -517px -345px;
+}
+
+.char-jo {
+    width: 90px;
+    height: 75px;
+    background-position: -611px -345px;
+}
+
+.char-ju {
+    width: 90px;
+    height: 75px;
+    background-position: -711px -345px;
+}
+
+.char-k {
+    width: 84px;
+    height: 75px;
+    background-position: -811px -345px;
+}
+
+.char-ka {
+    width: 88px;
+    height: 75px;
+    background-position: -905px -345px;
+}
+
+.char-ke {
+    width: 83px;
+    height: 75px;
+    background-position: -5px -430px;
+}
+
+.char-ki {
+    width: 82px;
+    height: 75px;
+    background-position: -98px -430px;
+}
+
+.char-ko {
+    width: 81px;
+    height: 75px;
+    background-position: -190px -430px;
+}
+
+.char-ku {
+    width: 79px;
+    height: 75px;
+    background-position: -281px -430px;
+}
+
+.char-l {
+    width: 80px;
+    height: 75px;
+    background-position: -370px -430px;
+}
+
+.char-la {
+    width: 84px;
+    height: 75px;
+    background-position: -460px -430px;
+}
+
+.char-le {
+    width: 78px;
+    height: 75px;
+    background-position: -554px -430px;
+}
+
+.char-li {
+    width: 79px;
+    height: 75px;
+    background-position: -642px -430px;
+}
+
+.char-lo {
+    width: 84px;
+    height: 75px;
+    background-position: -731px -430px;
+}
+
+.char-lu {
+    width: 87px;
+    height: 75px;
+    background-position: -825px -430px;
+}
+
+.char-m {
+    width: 80px;
+    height: 75px;
+    background-position: -922px -430px;
+}
+
+.char-ma {
+    width: 85px;
+    height: 75px;
+    background-position: -5px -515px;
+}
+
+.char-me {
+    width: 76px;
+    height: 72px;
+    background-position: -100px -515px;
+}
+
+.char-mi {
+    width: 73px;
+    height: 75px;
+    background-position: -186px -515px;
+}
+
+.char-mo {
+    width: 68px;
+    height: 75px;
+    background-position: -996px -175px;
+}
+
+.char-mu {
+    width: 79px;
+    height: 75px;
+    background-position: -269px -515px;
+}
+
+.char-n {
+    width: 76px;
+    height: 75px;
+    background-position: -358px -515px;
+}
+
+.char-na {
+    width: 78px;
+    height: 75px;
+    background-position: -444px -515px;
+}
+
+.char-ne {
+    width: 69px;
+    height: 75px;
+    background-position: -532px -515px;
+}
+
+.char-ng {
+    width: 79px;
+    height: 75px;
+    background-position: -611px -515px;
+}
+
+.char-nga {
+    width: 80px;
+    height: 75px;
+    background-position: -700px -515px;
+}
+
+.char-nge {
+    width: 87px;
+    height: 75px;
+    background-position: -790px -515px;
+}
+
+.char-ngi {
+    width: 85px;
+    height: 75px;
+    background-position: -887px -515px;
+}
+
+.char-ngo {
+    width: 77px;
+    height: 75px;
+    background-position: -982px -515px;
+}
+
+.char-ngu {
+    width: 82px;
+    height: 75px;
+    background-position: -5px -600px;
+}
+
+.char-ni {
+    width: 71px;
+    height: 75px;
+    background-position: -97px -600px;
+}
+
+.char-no {
+    width: 72px;
+    height: 75px;
+    background-position: -178px -600px;
+}
+
+.char-nu {
+    width: 75px;
+    height: 75px;
+    background-position: -260px -600px;
+}
+
+.char-o {
+    width: 90px;
+    height: 75px;
+    background-position: -345px -600px;
+}
+
+.char-p {
+    width: 90px;
+    height: 75px;
+    background-position: -445px -600px;
+}
+
+.char-pa {
+    width: 90px;
+    height: 75px;
+    background-position: -545px -600px;
+}
+
+.char-pe {
+    width: 90px;
+    height: 75px;
+    background-position: -645px -600px;
+}
+
+.char-pi {
+    width: 90px;
+    height: 74px;
+    background-position: -745px -600px;
+}
+
+.char-po {
+    width: 90px;
+    height: 74px;
+    background-position: -845px -600px;
+}
+
+.char-pu {
+    width: 90px;
+    height: 75px;
+    background-position: -945px -600px;
+}
+
+.char-q {
+    width: 82px;
+    height: 75px;
+    background-position: -5px -685px;
+}
+
+.char-qa {
+    width: 82px;
+    height: 75px;
+    background-position: -97px -685px;
+}
+
+.char-qe {
+    width: 80px;
+    height: 75px;
+    background-position: -189px -685px;
+}
+
+.char-qi {
+    width: 73px;
+    height: 75px;
+    background-position: -279px -685px;
+}
+
+.char-qo {
+    width: 79px;
+    height: 75px;
+    background-position: -362px -685px;
+}
+
+.char-qu {
+    width: 86px;
+    height: 75px;
+    background-position: -451px -685px;
+}
+
+.char-r {
+    width: 80px;
+    height: 75px;
+    background-position: -547px -685px;
+}
+
+.char-ra {
+    width: 81px;
+    height: 74px;
+    background-position: -637px -685px;
+}
+
+.char-re {
+    width: 80px;
+    height: 75px;
+    background-position: -728px -685px;
+}
+
+.char-ri {
+    width: 84px;
+    height: 75px;
+    background-position: -818px -685px;
+}
+
+.char-ro {
+    width: 80px;
+    height: 75px;
+    background-position: -912px -685px;
+}
+
+.char-ru {
+    width: 77px;
+    height: 75px;
+    background-position: -5px -770px;
+}
+
+.char-s {
+    width: 87px;
+    height: 75px;
+    background-position: -92px -770px;
+}
+
+.char-sa {
+    width: 87px;
+    height: 75px;
+    background-position: -189px -770px;
+}
+
+.char-se {
+    width: 80px;
+    height: 75px;
+    background-position: -286px -770px;
+}
+
+.char-si {
+    width: 84px;
+    height: 75px;
+    background-position: -376px -770px;
+}
+
+.char-so {
+    width: 90px;
+    height: 75px;
+    background-position: -470px -770px;
+}
+
+.char-su {
+    width: 90px;
+    height: 75px;
+    background-position: -570px -770px;
+}
+
+.char-t {
+    width: 81px;
+    height: 75px;
+    background-position: -670px -770px;
+}
+
+.char-ta {
+    width: 81px;
+    height: 75px;
+    background-position: -761px -770px;
+}
+
+.char-te {
+    width: 77px;
+    height: 75px;
+    background-position: -852px -770px;
+}
+
+.char-ti {
+    width: 78px;
+    height: 75px;
+    background-position: -939px -770px;
+}
+
+.char-to {
+    width: 79px;
+    height: 75px;
+    background-position: -5px -855px;
+}
+
+.char-tu {
+    width: 78px;
+    height: 75px;
+    background-position: -94px -855px;
+}
+
+.char-u {
+    width: 96px;
+    height: 75px;
+    background-position: -182px -855px;
+}
+
+.char-v {
+    width: 90px;
+    height: 75px;
+    background-position: -288px -855px;
+}
+
+.char-va {
+    width: 90px;
+    height: 75px;
+    background-position: -388px -855px;
+}
+
+.char-ve {
+    width: 87px;
+    height: 75px;
+    background-position: -488px -855px;
+}
+
+.char-vi {
+    width: 90px;
+    height: 75px;
+    background-position: -585px -855px;
+}
+
+.char-vo {
+    width: 84px;
+    height: 75px;
+    background-position: -685px -855px;
+}
+
+.char-vu {
+    width: 90px;
+    height: 75px;
+    background-position: -779px -855px;
+}
+
+.char-w {
+    width: 80px;
+    height: 75px;
+    background-position: -879px -855px;
+}
+
+.char-wa {
+    width: 79px;
+    height: 75px;
+    background-position: -969px -855px;
+}
+
+.char-we {
+    width: 69px;
+    height: 75px;
+    background-position: -5px -940px;
+}
+
+.char-wi {
+    width: 73px;
+    height: 75px;
+    background-position: -84px -940px;
+}
+
+.char-wo {
+    width: 75px;
+    height: 75px;
+    background-position: -167px -940px;
+}
+
+.char-wu {
+    width: 80px;
+    height: 75px;
+    background-position: -252px -940px;
+}
+
+.char-x {
+    width: 90px;
+    height: 75px;
+    background-position: -342px -940px;
+}
+
+.char-xa {
+    width: 90px;
+    height: 75px;
+    background-position: -442px -940px;
+}
+
+.char-xe {
+    width: 86px;
+    height: 75px;
+    background-position: -542px -940px;
+}
+
+.char-xi {
+    width: 85px;
+    height: 75px;
+    background-position: -638px -940px;
+}
+
+.char-xo {
+    width: 87px;
+    height: 75px;
+    background-position: -733px -940px;
+}
+
+.char-xu {
+    width: 87px;
+    height: 75px;
+    background-position: -830px -940px;
+}
+
+.char-y {
+    width: 88px;
+    height: 75px;
+    background-position: -927px -940px;
+}
+
+.char-ya {
+    width: 87px;
+    height: 75px;
+    background-position: -1069px -5px;
+}
+
+.char-ye {
+    width: 82px;
+    height: 75px;
+    background-position: -1060px -90px;
+}
+
+.char-yi {
+    width: 83px;
+    height: 75px;
+    background-position: -1074px -175px;
+}
+
+.char-yo {
+    width: 90px;
+    height: 75px;
+    background-position: -1069px -260px;
+}
+
+.char-yu {
+    width: 84px;
+    height: 75px;
+    background-position: -1003px -345px;
+}
+
+.char-z {
+    width: 90px;
+    height: 75px;
+    background-position: -1012px -430px;
+}
+
+.char-za {
+    width: 95px;
+    height: 75px;
+    background-position: -1069px -515px;
+}
+
+.char-ze {
+    width: 90px;
+    height: 75px;
+    background-position: -1045px -600px;
+}
+
+.char-zi {
+    width: 90px;
+    height: 75px;
+    background-position: -1002px -685px;
+}
+
+.char-zo {
+    width: 90px;
+    height: 75px;
+    background-position: -1027px -770px;
+}
+
+.char-zu {
+    width: 90px;
+    height: 75px;
+    background-position: -1058px -855px;
+}

@@ -1,12 +1,11 @@
 .char {
-    background-image: url("spritesheet.png");
+    background-image: url(spritesheet.png);
     background-repeat: no-repeat;
     display: inline-block;
     -ms-transform: scale(.5);
     -webkit-transform: scale(.5);
     transform: scale(.5);
     margin: -22px;
-/*    margin: -22px -28px -22px -22px;*/
 }
 
 .char-space {
@@ -209,7 +208,7 @@
 
 .char-g {
     width: 80px;
-    height: 72px;
+    height: 75px;
     background-position: -5px -260px;
 }
 
